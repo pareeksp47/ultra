@@ -1,0 +1,12 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "root",
+  "database": "ultra",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "subscribers": ["dist/**/*.subscribers{.ts,.js}"],
+  "autoLoadEntities": true,
+  "synchronize": true
+}
